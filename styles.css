@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body{
+    
+    background-color: #F0FFFF;
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0px;
+}
+/* -------------
+header 
+------------------*/
+
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px 50px 60px 50px;
+}
+
+
+.top-header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-welcome-body{
+    position: relative;
+    text-align: center; 
+
+}
+
+
+.Donate_Now {
+    background-color: #FF5959;
+    border: none;
+    border-radius: 10%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+   
+  }
+
+
+.top-image{
+
+     width: 400px;
+     height: 400px;
+     padding: 5px;
+     align-items: center;
+     border-radius: 10%;
+     margin-left: 50px;
+
+}
+
+.top-image-section{
+    position: relative;
+  text-align: center;
+
+}
+
+.text-over-image {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(18, 26, 145);
+    font-size: 18px;
+    
+  }
+
+
+
+  /*
+My-Donation-Section
+*/
+
+.My-Donation-Section{
+
+    text-align: center;
+    margin-top: 20px;
+    padding: 30px 50px 60px 50px;
+}
+
+  .donation-image{
+
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    align-items: center;
+    border-radius: 10%;
+    margin-left: 50px;
+
+}
+
+
+.One_Time {
+    background-color: blue;
+    border: none;
+    border-radius: 10%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+   
+  }
+
+  .Monthly {
+    background-color: Green;
+    border: none;
+    border-radius: 10%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+   
+  }
+
+
+  .fifty_d {
+    background: color #f0f8ff;
+    border: navy;
+    border-radius: 10%;
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+   
+  }
+
+  .hundred_d {
+    background: color #f0f8ff;
+    border: navy;
+    border-color: navy;
+    border-radius: 10%;
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+   
+  }
+
+  .two_hundred_d {
+    background: color #f0f8ff;
+    border: navy;
+    border-color: navy;
+    border-radius: 10%;
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+   
+  }
+
+
+  .five_hundred_d {
+    background: color #f0f8ff;
+    border: navy;
+    border-color: navy;
+    border-radius: 10%;
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+   
+  }
+
+  .thousand_d {
+    background: color #f0f8ff;
+    border: navy;
+    border-color: navy;
+    border-radius: 10%;
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+   
+  }
+
+
+
+  /* technical section */
+.Donation-Plan{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px 50px 60px 50px;
+}
+
+.Donation-Plan-display{
+    display: flex;
+    justify-content: space-between;
+    gap:25px;
+    padding: 30px 50px 60px 50px;
+}
+
+
+.Cash_Donation{
+    height: 260px;
+    width: 100%;
+    padding: 20px;
+    background-color: #1dc9c9;
+    border-radius: 15px;
+}
+.cash_donation{
+
+    width: 120px;
+    height: 100px;
+    padding: 5px;
+    position: inherit;
+    border-radius: 10%;
+    margin-left: 20px;
+}
+
+
+
+.Foods_Dry-Foods{
+    height: 260px;
+    width: 100%;
+    padding: 20px;
+    background-color: #F5F5DC;
+    border-radius: 15px;
+}
+.foods_donation{
+
+    width: 120px;
+    height: 100px;
+    padding: 5px;
+    position: inherit;
+    border-radius: 10%;
+    margin-left: 20px;
+}
+
+
+.Drinking-Water_Saline{
+    height: 260px;
+    width: 100%;
+    padding: 20px;
+    background-color: #C3FDB8;
+    border-radius: 15px;
+}
+.water_distribution{
+
+    width: 120px;
+    height: 100px;
+    padding: 5px;
+    position: inherit;
+    border-radius: 10%;
+    margin-left: 20px;
+}
+
+
+
+
+.Medical-Medicine{
+    height: 260px;
+    width: 100%;
+    padding: 20px;
+    background-color: #ADD8E6;
+    border-radius: 15px;
+}
+
+.medicine_distribution{
+
+    width: 120px;
+    height: 100px;
+    padding: 5px;
+    position: inherit;
+    border-radius: 10%;
+    margin-left: 20px;
+}
+
+
+.House_Other-Goods{
+    height: 260px;
+    width: 100%;
+    padding: 20px;
+    background-color: #C0C0C0;
+    border-radius: 15px;
+}
+
+.house_distribution{
+
+    width: 120px;
+    height: 100px;
+    padding: 5px;
+    position: inherit;
+    border-radius: 10%;
+    margin-left: 20px;
+}
+
+
+/* -------------
+your donation will make a difference
+------------------*/
+
+.your-donation-will-make-a-difference{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 30px;
+}
+
+.your-donation-for-people-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.people_in_flood_sylhet{
+
+    width: 400px;
+    height: 400px;
+    padding: 5px;
+    align-items: center;
+    border-radius: 10%;
+    margin-left: 50px;
+
+}
+
+.statement-donation-for-people{
+    position: relative;
+    text-align: center; 
+    padding: 10px;
+    text-align: justify;  
+}
+
+
+.difference-donation{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+.How-to-Contribute {
+    background-color: orangered;
+    border: none;
+    border-radius: 05%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+   
+  }
+
+
+
+  /* -------------
+  News_Letter_section
+  ------------------*/
+  
+  .News_Letter_section{
+    display: block;
+   text-align: center;
+    align-content: center;
+    margin: 30px;
+  }
+
+
+  .News_Letter_division{
+    display: block;
+    
+
+  align-content: center;
+  padding: 10px;
+}
+
+#Subscription_box_division {
+    position: absolute;
+    border: 1px solid blue;
+    width: 50%;
+    height: 200px;
+    margin-left: 18%;
+    background-color: darksalmon;
+  }
+
+  #e-mail_id_subscription{
+    margin-top: 90px;
+  
+    text-align: center;
+    margin-bottom: 30px;
+    
+  }
+
+  .News_Letter_subscription{
+    background-color: crimson;
+  }
+
+
+
+ /* -------------
+  footer_section
+  ------------------*/
+
+  .footer_section{
+    display: block;
+   text-align: center;
+    align-content: center;
+    margin-top: 250px;
+  }
+
+
+
+  #footer_section_division{
+   display: block;
+    margin-top: 30px;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    vebackground-color: black;
+  }
+
+  #footer_header{
+    color: #FF5959;
+    margin-top: 80px;
+    
+  }
+
+  #footer_text{
+    color: deeppink;
+  }
