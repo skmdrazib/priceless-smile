@@ -458,7 +458,7 @@ your donation will make a difference
     height: 200px;
     background-color: black;
   }
-  git add ., git commit -m "Heading", git push
+
   #footer_header{
     color: #FF5959;
     margin-top: 80px;
@@ -466,5 +466,5 @@ your donation will make a difference
   }
 
   #footer_text{
-    color: deeppink;
+    color: crimson;
   }
