@@ -456,9 +456,9 @@ your donation will make a difference
     position: absolute;
     width: 100%;
     height: 200px;
-    vebackground-color: black;
+    background-color: black;
   }
-
+  git add ., git commit -m "Heading", git push
   #footer_header{
     color: #FF5959;
     margin-top: 80px;
